@@ -1,22 +1,22 @@
 
 public class FizzBuzz {
 
-	public void generar(int numero){
+	public String generar(int numero){
 		
 		if (numero % 3 == 0 && numero % 5 == 0)
 		
-			System.out.println("FizzBuzz");                    
+			return  "FizzBuzz";                    
 		
 		if(numero % 3 == 0)
 		
-			System.out.println("Fizz");
+			return "Fizz";
 		
 		if(numero % 5 == 0)
 		
-			System.out.println("Buzz");
+			return "Buzz";
 		
 		else
-			System.out.println(numero);
+			return Integer.toString(numero);
 	}
 
 	public int generarUno(int numero) {
@@ -65,7 +65,7 @@ public class FizzBuzz {
 		// TODO Auto-generated method stub
 		for(int numero = 0; numero < tamanio; numero++)
 		{
-			generar(numero);
+			System.out.println(generar(numero));
 		}
 	}
 
