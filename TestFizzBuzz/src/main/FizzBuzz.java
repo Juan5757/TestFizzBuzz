@@ -28,6 +28,47 @@ public class FizzBuzz {
 		return numero;
 	}
 
+	public String generarFizz(int numero) {
+		// TODO Auto-generated method stub
+		if(numero % 3 == 0)
+		{
+			return "Fizz";
+		}
+		else
+		{
+			return Integer.toString(numero);
+		}
+		
+	}
+
+	public String generarBuzz(int numero) {
+		// TODO Auto-generated method stub
+		if(numero % 5 == 0)
+		{
+			return "Buzz";
+		}
+		else
+		{
+			return Integer.toString(numero);
+		}
+	}
+
+	public String generarFizzBuzz(int numero) {
+		// TODO Auto-generated method stub
+		if (numero % 3 == 0 && numero % 5 == 0)
+		{
+			return "FizzBuzz";                    
+		}
+		else
+		{
+			return Integer.toString(numero);
+		}
+	}
+
+	
+
+	
+
 	
 	
 	
