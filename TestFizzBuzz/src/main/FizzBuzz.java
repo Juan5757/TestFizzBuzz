@@ -4,17 +4,17 @@ public class FizzBuzz {
 	public void generar(int numero){
 		
 		if (numero % 3 == 0 && numero % 5 == 0)
-		{
+		
 			System.out.println("FizzBuzz");                    
-		}
+		
 		if(numero % 3 == 0)
-		{
+		
 			System.out.println("Fizz");
-		}
+		
 		if(numero % 5 == 0)
-		{
+		
 			System.out.println("Buzz");
-		}
+		
 		else
 			System.out.println(numero);
 	}
