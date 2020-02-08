@@ -15,4 +15,15 @@ public class FizzBuzzTest {
 		p.main(null);
 	}
 	
+	@Test
+	public void testConstructorFizzBuzz(){
+		FizzBuzz fb = new FizzBuzz();
+	}
+	
+	@Test
+	public void testFizzBuzz(){
+		FizzBuzz fb = new FizzBuzz();
+		fb.generar();
+	}
+	
 }
