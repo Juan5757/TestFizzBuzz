@@ -109,4 +109,10 @@ public class FizzBuzzTest {
 		assertThat("11").isEqualTo(palabra);
 	}
 	
+	@Test
+	public void deberiaRetornar10NumerosAplicandoFizzBuzzSiIngreso10(){
+		FizzBuzz fb = new FizzBuzz();
+		fb.generarMuchos(10);
+	}
+	
 }

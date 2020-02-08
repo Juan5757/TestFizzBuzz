@@ -17,5 +17,7 @@ public class Program {
 		
 		String resultado3 = fb.generarFizzBuzz(15);
 		System.out.println(resultado3);
+		
+		fb.generarMuchos(10);
     }	
 }

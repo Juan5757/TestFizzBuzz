@@ -1,8 +1,8 @@
 
 public class FizzBuzz {
 
-	public void generar(){
-		for(int i = 0; i < 100; i++)
+	public void generar(int numero){
+		for(int i = 0; i < numero; i++)
 		{
 			if (i % 3 == 0 && i % 5 == 0)
 			{
@@ -63,6 +63,11 @@ public class FizzBuzz {
 		{
 			return Integer.toString(numero);
 		}
+	}
+
+	public void generarMuchos(int tamanio) {
+		// TODO Auto-generated method stub
+		generar(10);
 	}
 
 	
