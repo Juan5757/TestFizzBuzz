@@ -7,18 +7,16 @@ public class FizzBuzz {
 		{
 			System.out.println("FizzBuzz");                    
 		}
-		else 
-			if(numero % 3 == 0)
-			{
-				System.out.println("Fizz");
-			}
-			else 
-				if(numero % 5 == 0)
-				{
-					System.out.println("Buzz");
-				}
-				else
-					System.out.println(numero);
+		if(numero % 3 == 0)
+		{
+			System.out.println("Fizz");
+		}
+		if(numero % 5 == 0)
+		{
+			System.out.println("Buzz");
+		}
+		else
+			System.out.println(numero);
 	}
 
 	public int generarUno(int numero) {
