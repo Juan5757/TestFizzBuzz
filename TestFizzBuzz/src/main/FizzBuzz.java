@@ -2,25 +2,23 @@
 public class FizzBuzz {
 
 	public void generar(int numero){
-		for(int i = 0; i < numero; i++)
+		
+		if (numero % 3 == 0 && numero % 5 == 0)
 		{
-			if (i % 3 == 0 && i % 5 == 0)
+			System.out.println("FizzBuzz");                    
+		}
+		else 
+			if(numero % 3 == 0)
 			{
-				System.out.println("FizzBuzz");                    
+				System.out.println("Fizz");
 			}
 			else 
-				if(i % 3 == 0)
+				if(numero % 5 == 0)
 				{
-					System.out.println("Fizz");
+					System.out.println("Buzz");
 				}
-				else 
-					if(i % 5 == 0)
-					{
-						System.out.println("Buzz");
-					}
-					else
-						System.out.println(i);
-        }
+				else
+					System.out.println(numero);
 	}
 
 	public int generarUno(int numero) {
@@ -67,7 +65,10 @@ public class FizzBuzz {
 
 	public void generarMuchos(int tamanio) {
 		// TODO Auto-generated method stub
-		generar(10);
+		for(int numero = 0; numero < tamanio; numero++)
+		{
+			generar(numero);
+		}
 	}
 
 	

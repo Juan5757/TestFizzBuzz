@@ -4,6 +4,6 @@ public class Program {
 	{
 		
 		FizzBuzz fb = new FizzBuzz();		
-		fb.generarMuchos(10);
+		fb.generarMuchos(100);
     }	
 }
