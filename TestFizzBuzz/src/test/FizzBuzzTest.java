@@ -3,27 +3,12 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class FizzBuzzTest {
-
-	@Test
-	public void testConstructor(){
-		Program p = new Program();
-	}
 	
 	@Test
-	public void testProgram(){
-		Program p = new Program();
-		p.main(null);
-	}
-	
-	@Test
-	public void testConstructorFizzBuzz(){
+	public void deberiaRetornar1SiIngreso1(){
 		FizzBuzz fb = new FizzBuzz();
-	}
-	
-	@Test
-	public void testFizzBuzz(){
-		FizzBuzz fb = new FizzBuzz();
-		fb.generar();
+		int numero=fb.generarUno(1);
+		assertThat(1).isEqualTo(numero);
 	}
 	
 }

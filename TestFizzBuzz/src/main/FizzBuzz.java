@@ -22,4 +22,13 @@ public class FizzBuzz {
 						System.out.println(i);
         }
 	}
+
+	public int generarUno(int numero) {
+		// TODO Auto-generated method stub
+		return numero;
+	}
+
+	
+	
+	
 }
